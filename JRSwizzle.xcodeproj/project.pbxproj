@@ -198,7 +198,7 @@
 		8A6D5038178C585200585379 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0460;
+				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = Goonbee;
 			};
 			buildConfigurationList = 8A6D503B178C585200585379 /* Build configuration list for PBXProject "JRSwizzle" */;
@@ -344,7 +344,6 @@
 		8A6D506B178C595F00585379 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				COMBINE_HIDPI_IMAGES = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -368,7 +367,6 @@
 		8A6D506C178C595F00585379 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				COMBINE_HIDPI_IMAGES = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -409,6 +407,7 @@
 				8A6D5050178C585200585379 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8A6D506A178C595F00585379 /* Build configuration list for PBXNativeTarget "JRSwizzle-OSX" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +416,7 @@
 				8A6D506C178C595F00585379 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
